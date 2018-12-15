@@ -1,0 +1,89 @@
+	import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class shhhhhh {
+
+	
+
+
+
+
+
+
+	/**
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		
+	
+
+			{
+				
+				
+		   
+				Scanner scanner = new Scanner(System.in);
+				System.out.print("Enter a file name: ");
+			//System.out.flush();
+				String filename = scanner.nextLine();
+				File file = new File(filename);
+				
+				
+				
+				
+				String readLine = "";
+				try {
+				      BufferedReader br = new BufferedReader(new FileReader(filename));
+				      while ((readLine = br.readLine()) != null) { 
+				       System.out.println(readLine);
+				      } // end while 
+				    } // end try
+				    catch (IOException e) {
+				      System.err.println("Error Happened: " + e);
+				    }
+				
+				
+				/////////////////////////////////////////////////
+				 
+			}
+			
+			////////////////////////////////////
+			Scanner scanner = new Scanner(System.in);
+			System.out.print("Enter a file name: ");
+		//System.out.flush();
+			String filename = scanner.nextLine();
+			File file = new File(filename);
+			
+			
+			
+			
+			String readLine = "";
+			try {
+			      BufferedReader br = new BufferedReader(new FileReader(filename));
+			      while ((readLine = br.readLine()) != null) { 
+			        System.out.println(readLine);
+			      } // end while 
+			    } // end try
+			    catch (IOException e) {
+			      System.err.println("Error Happened: " + e);
+			    }
+			
+			
+			/////////////////////////////////////////////////
+			 
+		}
+
+
+
+	    
+	    
+	
+	    }
+	
+			
+		
+		
+		
